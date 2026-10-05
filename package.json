@@ -13,7 +13,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "prod": "node server/index.js"
+    "prod": "node server/index.js",
+    "start": "npm run prod"
   },
   "dependencies": {
     "core-js": "^3.6.5",
